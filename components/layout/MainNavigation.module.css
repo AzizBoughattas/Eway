@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding: 0 5%;
+  }
+  
+
+  .logo img {
+    height: 3.5rem;
+    vertical-align: middle;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1rem;
+    color:#d6d6d6;
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: white;
+  }
+
+  .find {
+    /* margin: 2rem;
+    flex-basis: 50rem; */
+    margin: 2rem;
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+  }
+
+  
+  .find__input {
+    padding: 0.8rem 1.5rem;
+    width: 90%;
+    background-color: azure;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+  }
+
+.find__button {
+  background-color: rgb(243, 178, 57);
+  border-radius: 10px;
+  border: 1px solid rgb(243, 178, 57);
+  padding: 0 1rem 0 1rem;
+  color: #131921;
+  cursor: pointer;
+  font-size: large;
+}
+
+.find__button:hover ,
+.find__button:active {
+  color: aliceblue;
+}

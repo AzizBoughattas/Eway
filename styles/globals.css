@@ -1,9 +1,19 @@
+
+
+ :root {
+  --code-color: darkred;
+  --code-bg-color: #aaaaaa;
+  --code-font-size: 14px;
+  --code-line-height: 1.4;
+  --scroll-bar-color: #c5c5c5;
+  --scroll-bar-bg-color: #f6f6f6;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Amazon Ember",Arial,sans-serif;
 }
 
 a {
@@ -11,16 +21,21 @@ a {
   text-decoration: none;
 }
 
-* {
+* { 
+  margin-bottom: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: #EAEDED;
   }
 }

@@ -1,0 +1,38 @@
+.footerr {
+  background-color: #232f3e;
+}
+
+.footer__verticalrow {
+  padding: 2rem;
+  display: table;
+  margin: 0 auto;
+}
+
+.footer__verticalrow__linkcol {
+  display: table-row;
+}
+
+.footer__verticalrow__linkcol_table {
+  display: table-cell;
+  padding: 0 2rem;
+}
+
+.footer__verticalrow__linkcol_titre {
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer__verticalrow__linkcol_table_list {
+    padding: 0;
+}
+
+.footer__verticalrow__linkcol_table_list li {
+  margin: 0 0 10px;
+  color: #ddd;
+  font-size: small;
+}
+
+.footer__verticalrow__linkcol_table_spacer {
+  display: table-cell;
+  padding: 0 10px;
+}
